@@ -62,7 +62,7 @@ export class AnalysisStage {
       );
     }
 
-    this.keyPressOverlayPreparer.container.position.set((STAGE_WIDTH - OSU_PLAYFIELD_WIDTH * playfieldScaling) / 2, 15);
+    this.keyPressOverlayPreparer.container.position.set((STAGE_WIDTH - OSU_PLAYFIELD_WIDTH * ((STAGE_HEIGHT * 0.8) / OSU_PLAYFIELD_HEIGHT)) / 2, 15);
     this.keyPressOverlayPreparer.container.visible = showNoteKeyOverlay;
 
     this.playfield.container.scale.set(playfieldScaling);

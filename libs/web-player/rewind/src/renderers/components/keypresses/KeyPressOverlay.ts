@@ -52,7 +52,7 @@ class NonIntersectingTimeIntervalsTracker {
   }
 }
 
-const WIDTH = 800;
+const WIDTH = 960;
 const HEIGHT = 100;
 const KEY_HEIGHT = 25;
 
